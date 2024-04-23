@@ -1,0 +1,320 @@
+:root {
+    --darkBrown: #65463D;
+    --lightBrown: #A86F5D;
+    --darkOrange: #D06B3B;
+    --lightOrange:#EA967B;
+    --greyedOut: #B2948B;
+}
+
+html
+{
+    background-color: #FAF4ED;
+}
+
+body {
+    font-family: Vollkorn, serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: var(--darkBrown)
+    
+}
+
+.main-body
+{
+    width: 55%;
+    margin: auto;
+    
+}
+
+.divider
+{
+    border-top: 2px solid var(--darkBrown);
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.small-break
+{
+    border-top: 2px solid var(--darkBrown);
+    width: 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.column
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.navigation-bar
+{
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.nav-button
+{
+    height: 80%;
+    width: 80%;
+
+    font-size: 16px;
+    font-family: Vollkorn;
+    letter-spacing: 2px;
+
+    border: 2px solid var(--darkBrown);
+    padding-top: 4px;
+    border-radius: 30px;
+    background-color: transparent;
+
+    transition-duration: 0.3s;
+}
+
+.nav-button:hover
+{
+    border: 2px solid var(--lightOrange);
+    color: var(--lightOrange);
+}
+
+.nav-button:active
+{
+    border: 2px solid var(--lightOrange);
+    color: white;
+    background-color: var(--lightOrange);
+}
+
+.logo-space
+{
+    height: 110px;
+    align-items: center;
+}
+
+.main-logo
+{
+    height: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 100%;
+
+    outline-style: dashed; 
+    outline-color: var(--darkBrown);
+    outline-offset: 6px;
+}
+
+.alicetxt-title
+{
+    display: block;
+    font-size: 130%;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+    height: 40px;
+    text-align: center;
+
+}
+
+.text-block
+{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+h3
+{
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.status-button
+{
+    font-size: 16px;
+    font-family: Vollkorn;
+    letter-spacing: 3px;
+    font-weight: bolder;
+
+    border: none; 
+    height: 40px;
+    width: 150px;
+    padding-top: 4px;
+    border-radius: 30px;
+    background-color: var(--lightOrange);
+    margin-bottom: 20px;
+}
+
+.empty-space
+{
+    border: 3px solid var(--lightBrown);
+    height: 40px;
+    display: block;
+
+}
+
+.footer
+{
+    font-size: 16px;
+    text-align: center;
+    color: var(--greyedOut);
+    letter-spacing: 2px;
+
+    line-height: 8px;
+}
+
+.text-block-left
+{
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+ul
+{
+    list-style-position: outside;
+}
+
+.order-button
+{
+    font-size: 16px;
+    font-family: Vollkorn;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none; 
+    height: 40px;
+    width: 300px;
+    padding-top: 4px;
+    border-radius: 30px;
+    background-color: var(--lightOrange);
+
+    transition: 0.3s;
+}
+
+.order-button:hover
+{
+    background-color: var(--darkOrange);
+    color: white;
+}
+
+.icon-container
+{
+    
+    height: 25px;
+    width: 25%;
+    margin:auto;
+    font-size: 20px;
+
+}
+
+.icon-box
+{
+    float: left;
+    width: 25%;
+    height:100%;
+}
+
+.fa-mug-saucer
+{
+    font-size: 18px;
+}
+
+.icon
+{
+    transition: 0.3s;
+}
+
+.icon:link
+{
+    color: var(--greyedOut);
+}
+
+.icon:visited
+{
+    color: var(--greyedOut);
+}
+
+.icon:hover{
+    color: var(--darkOrange);
+}
+
+.button-list-container
+{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.button-list-button
+{
+    font-size: 16px;
+    font-family: Vollkorn;
+    letter-spacing: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid var(--darkBrown); 
+    height: 40px;
+    width: 100%;
+    padding-top: 4px;
+    border-radius: 30px;
+    background-color: transparent;
+    
+    transition: 0.3s;
+}
+
+.button-list-button:hover
+{
+    border: 2px solid var(--darkOrange); 
+    color: var(--darkOrange)
+}
+
+.art-image
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+}
+.big-image
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+
+.highlight
+{
+    color: var(--darkOrange);
+}
+
+a:link
+{
+    color: var(--darkOrange);
+}
+
+a:visited
+{
+    color: var(--darkOrange);
+}
+
+a:hover
+{
+    color: #ac4f24;
+}
